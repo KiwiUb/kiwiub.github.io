@@ -1,18 +1,18 @@
 @font-face {
     font-family: "SyneMono";
-    src: url("Type/SyneMono-Regular.ttf");
+    src: url("type/SyneMono-Regular.ttf");
 }
 @font-face {
     font-family: "EncodeSans-r";
-    src: url("Type/EncodeSansSemiExpanded-Regular.ttf");
+    src: url("type/EncodeSansSemiExpanded-Regular.ttf");
 }
 @font-face {
     font-family: "EncodeSans-m";
-    src: url("Type/EncodeSansSemiExpanded-Medium.ttf");
+    src: url("type/EncodeSansSemiExpanded-Medium.ttf");
 }
 @font-face {
     font-family: "Nothing";
-    src: url("Type/NothingYouCouldDo-Regular.ttf");
+    src: url("type/NothingYouCouldDo-Regular.ttf");
 }
 
 :root {
