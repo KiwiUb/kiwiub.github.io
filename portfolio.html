@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="portfolio.css">
+        <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=mail,photo_camera,call">    </head>
+    <body>
+        <div
+            hx-get="headerP.html" 
+            hx-trigger="load" 
+            hx-swap="outerHTML">
+        </div>
+        <div id="content">
+            <div id="one">
+                <t id="PORT">
+                    <t1>PORTFOLIO</t1>
+                    <t2>PORTFOLIO</t2>
+                </t>
+                <t id="intro">
+                    <t1>Graphic Design</t1>
+                    <t2>Product Design</t2>
+                    <t3>UX/UI</t3>
+                    <t3>Illustration</t3>
+                </t>
+                <img src="photo/foto cv.JPG" id="f1"></img>
+                <t id="nombre2">
+                    <t1>Sofia Romaniv</t1>
+                    <t2>3º year design student</t2>
+                </t>
+            </div>
+            <div id="two">
+                <t1 id="t-proj">
+                    Projects
+                </t1>
+                <div id="carrousel">
+                    <a href="project 1.html">
+                        <img src="photo/libro4.png" class="slide1">
+                    </a>
+                    <a href="project 2.html">
+                        <img src="photo/revista1.png" class="slide1">
+                    </a>
+                    <a href="project 3.html">
+                        <img src="photo/mockup cd.png" class="slide1">
+                    </a>
+                    <a href="project 4.html">
+                        <img src="photo/andador1.png" class="slide1">
+                    </a>
+                    <a href="project 5.html">
+                        <img src="photo/mueble1.png" class="slide1">
+                    </a>
+                    <a href="project 6.html">
+                        <img src="photo/pack1.png" id="slide7">
+                    </a>
+                </div>
+            </div>
+            <div
+                hx-get="FooterP.html" 
+                hx-trigger="load" 
+                hx-swap="outerHTML">
+            </div>
+        </div>
+    </body>
+</html>
