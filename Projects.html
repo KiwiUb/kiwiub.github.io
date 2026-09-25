@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="portfolio.css">
+        <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=mail,photo_camera,call">
+    </head>
+    <body>
+        <div
+            hx-get="headerP.html" 
+            hx-trigger="load" 
+            hx-swap="outerHTML">
+        </div>
+        <div id="content">
+            <div id="projects">
+                <h1 id="graph">
+                    GRAPHIC DESIGN
+                </h1>
+                <a href="project 1.html" id="p1">
+                    <div class="foto">
+                        <img src="photo/libro4.png" class="slide2">
+                    </div>
+                    <t class="tpr">"music icons" book series cover design</t>
+                </a>
+                <a href="project 2.html" id="p2">
+                    <div class="foto">
+                        <img src="photo/revista1.png" class="slide2">
+                    </div>
+                    <t class="tpr">Vogue USA redesign</t>
+                </a>
+                <a href="project 3.html" id="p3">
+                    <div class="foto">
+                        <img src="photo/mockup cd.png" class="slide2" height:120%>
+                    </div>
+                    <t class="tpr">new format CD case</t>
+                </a>
+                <h1 id="ind">
+                    PRODUCT DESIGN
+                </h1>
+                <a href="project 4.html" id="p4">
+                    <div class="foto">
+                        <img src="photo/andador1.png" class="slide2">
+                    </div>
+                    <t class="tpr">modern walker</t>
+                </a>
+                <a href="project 5.html" id="p5">
+                    <div class="foto">
+                        <img src="photo/mueble1.png" class="slide2">
+                    </div>
+                    <t class="tpr">room divider for Askin™ design contest</t>
+                </a>
+                <a href="project 6.html" id="p6">
+                    <div class="foto">
+                        <img src="photo/pack1.png" id="slide6">
+                    </div>
+                    <t class="tpr">wine bottle carrier</t>
+                </a>
+            </div>
+            <div
+                hx-get="FooterP.html" 
+                hx-trigger="load" 
+                hx-swap="outerHTML">
+            </div>
+        </div>
+    </body>
+</html>

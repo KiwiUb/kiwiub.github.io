@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="portfolio.css">
+        <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=mail,photo_camera,call">
+    </head>
+    <body>
+        <div
+            hx-get="headerP.html" 
+            hx-trigger="load" 
+            hx-swap="outerHTML">
+        </div>
+        <div id="contentabout">
+            <div id="contentabout1">
+                <h1 id="tit1">
+                    Hey! I’m Sofia.
+                </h1>
+                <p1 id="parr1">
+                    I’m a design student interested in exploring the relationship between functionality, aesthetics and everyday life. I enjoy designing things that are not only visually appealing, but also meaningful, practical and capable of improving the way we interact with our surroundings.
+                </p1>
+                <p2 id="parr2">
+                    My projects move between industrial and graphic design, from furniture and everyday objects to visual identities, editorial pieces and digital experiences. I’m particularly interested in the process behind a project: researching a problem, exploring different ideas, experimenting with materials and forms, and gradually turning an initial concept into a tangible result.
+                </p2>
+                <p3 id="parr3">
+                    I’m naturally curious and enjoy looking for inspiration in places beyond design itself. Music is one of my biggest interests, especially the visual world surrounding it. Album covers, typography, colours, posters and the physical experience of vinyl have influenced the way I understand visual communication and have often become a starting point for my own projects. Beyond that, I also enjoy centering my project around the music industry itself, and would really love to work for the industry in the future.
+                </p3>
+                <p4 id="parr4">
+                    As a designer, I’m always looking to learn, experiment and develop my own way of working. I enjoy combining different disciplines and approaches, while paying close attention to details and the relationship between an idea and its final form.
+                </p4>
+                <h2 id="tit2">
+                    For me, design is about observing, questioning and transforming everyday ideas into something new.
+                </h2>
+                <div
+                    hx-get="FooterP.html" 
+                    hx-trigger="load" 
+                    hx-swap="outerHTML">
+                </div>
+            </div>
+            <div id="contentabout2">
+                <div id="ph">
+                    <img src="photo/yo.JPG" class="php" width="400px">
+                    <img src="photo/concert1.jpeg" class="php" width="500px">
+                    <img src="photo/music.jpeg" class="php" width="400px">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
